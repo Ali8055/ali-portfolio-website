@@ -7,6 +7,7 @@ import Image from "next/image";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import { contactusSchema } from "@/utils/yupSchema";
 import Swal from "sweetalert2";
+import { Icon } from "@iconify/react";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -64,12 +65,20 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex items-center flex-row gap-2">
           <Link href="github.com">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="linkedin.com">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="linkedin.com">
+            <Icon icon="jam:fiverr" className="text-4xl text-white" />
+            {/* <Image src={LinkedinIcon} alt="Linkedin Icon" /> */}
+          </Link>
+          <Link href="linkedin.com">
+            <Icon icon="bxl:upwork" className="text-5xl text-white" />
+            {/* <Image src={LinkedinIcon} alt="Linkedin Icon" /> */}
           </Link>
         </div>
       </div>

@@ -19,8 +19,10 @@ function SkillsSection() {
 
   const duplicatedTexts = [...texts, ...texts, ...texts];
   return (
-    <div className="py-10 px-4">
-      <p className="py-5 text-4xl font-semibold text-[#c9f31d]">Skills</p>
+    <div className="py-10 px-4 mt-5">
+      <p className="py-5 text-4xl text-center font-semibold text-[#c9f31d]">
+        Tools And Technologies
+      </p>
       <div className="banner-container  flex px-4 py-5 text-white w-full overflow-hidden banner">
         <div className="banner-animation inline-flex gap-5">
           {duplicatedTexts.map((text, index) => (

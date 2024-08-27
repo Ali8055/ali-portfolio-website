@@ -7,7 +7,7 @@ function SplashScreen({ finishLoading, greatVibesFont }) {
   const lastElementRef = useRef(null);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), 7000);
+    const timeout = setTimeout(() => setIsMounted(true), 9000);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -25,25 +25,28 @@ function SplashScreen({ finishLoading, greatVibesFont }) {
       <div
         // isMounted={isMounted}
         // style={{ opacity: isMounted ? 1 : 0 }}
-        className="relative mx-auto w-[700px] h-[200px] text-white overflow-hidden">
+        className="relative mx-auto w-[900px] h-[200px] text-white overflow-hidden">
         <div className="carousel">
           <p className=" text-center sm:text-[40px] text-[25px] leading-[200px]">
             Hi!
           </p>
           <p className=" leading-[200px] sm:text-[40px] text-[25px] text-center">
-            I develop <span className="text-[#c9f31d]">Apps</span>
+            You are Welcomed
           </p>
-          <p className=" sm:text-[40px] text-[25px] text-center leading-[200px]">
-            I develop <span className="text-[#c9f31d]">Websites</span>
+          <p className=" sm:text-[40px] text-[20px] text-center leading-[200px]">
+            ⁠Meet your go-to{" "}
+            <span className="text-[#c9f31d]">
+              Full Stack Software Developer
+            </span>
           </p>
           <p className=" sm:text-[40px] text-[20px] text-center leading-[200px] flex justify-center items-center ">
-            I am Muhammad Ali Awan
-            <Icon icon="twemoji:waving-hand" className="ml-1" />
+            ⁠Let’s collaborate and transform your ideas…💡
           </p>
+
           <p
             className={` ${greatVibesFont.className} text-[#c9f31d]  text-center sm:text-[40px] text-[25px] leading-[200px]`}
             ref={lastElementRef}>
-            lets work together!
+            ⁠Share your concerns, and let’s get started
           </p>
         </div>
       </div>

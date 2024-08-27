@@ -16,6 +16,10 @@
   }
 }
 
+.scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+
 .banner-animation {
   animation: 80s slide infinite linear;
   white-space: nowrap;

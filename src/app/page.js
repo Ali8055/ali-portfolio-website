@@ -8,6 +8,8 @@ import AchievementsSection from "./components/AchievementsSection";
 import { Great_Vibes, Poppins } from "next/font/google";
 import WorkAndEducation from "./components/WorkAndEducation";
 import SkillsSection from "./components/SkillsSection";
+import ServicesOffered from "./components/ServicesOffered";
+import Testinomials from "./components/Testinomials";
 
 // const greatVibesFont = localFont({ src: "GreatVibes-Regular.otf" });
 
@@ -18,9 +20,11 @@ export default function Home() {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
-        <WorkAndEducation />
+        <ServicesOffered />
+        {/* <WorkAndEducation /> */}
         <SkillsSection />
         <ProjectsSection />
+        <Testinomials />
         <EmailSection />
       </div>
     </main>

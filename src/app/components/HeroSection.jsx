@@ -44,12 +44,12 @@ const HeroSection = () => {
               className="inline-block py-3 w-full sm:w-fit font-bold rounded-xl px-10 mr-4 bg-[#c9f31d] text-black">
               Hire Me
             </Link>
-            <Link
+            {/* <Link
               target="_blank"
               href="/new resume.pdf"
               className="px-1 inline-block transition bg-[#121212] py-1 w-full sm:w-fit rounded-xl border-[#c9f31d] border font-bold hover:bg-[#c9f31d] hover:text-black  text-white mt-3">
               <span className="block   rounded-xl px-5 py-2">Download CV</span>
-            </Link>
+            </Link> */}
           </div>
         </motion.div>
         <motion.div
