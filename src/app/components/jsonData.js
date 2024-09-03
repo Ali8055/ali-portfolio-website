@@ -237,14 +237,10 @@ export const caseStudies = [
   { name: "shaadmani", picture: ["/images/casestudy.png"] },
   {
     name: "menatcp",
-    picture: [
-      "/images/casestudymena.png",
-      "/images/casestudy.png",
-      "/images/mena3.png",
-    ],
+    picture: ["/images/menatcp.jpg"],
   },
   { name: "limo", picture: ["/images/casestudy.png"] },
   { name: "nearme", picture: ["/images/casestudy.png"] },
   { name: "harpy", picture: ["/images/casestudy.png"] },
-  { name: "graphit", picture: ["/images/casestudy.png"] },
+  { name: "graphit", picture: ["/images/graphit.jpg"] },
 ];
