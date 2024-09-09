@@ -59,12 +59,11 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have 2 years
-            experience working with JavaScript, React js, Next js, Redux
+             I am a full stack web developer with a passion for creating
+            interactive and responsive software applications. I have arround 8 years
+            experience in Software Industory, React js, Next js, Redux
             tootkit. I am a quick learner and I am always looking to expand my
-            knowledge and skill set. I am a team player and I am excited to work
-            with others to create amazing applications.
+            knowledge and skill set.
           </p>
           {/* <div className="flex flex-row justify-start mt-8">
             <TabButton
